@@ -2,7 +2,7 @@
 
 An implementation of the Approximate Bayes Factor (ABF) fine mapping and colocalisation methods [1].
 
-# Installation
+## Installation
 
 To install the `genetic_coloc` package, follow these steps:
 
@@ -21,7 +21,7 @@ To install the `genetic_coloc` package, follow these steps:
     pip install .
     ```
 
-# Quickstart
+## Quickstart
 
 ### Compute log ABF
 
@@ -59,6 +59,6 @@ log_abf_trait_2 = np.array([1, 4, 9])
 coloc_abf(log_abf_trait_1=log_abf_trait_1, log_abf_trait_2=log_abf_trait_2)
 ```
 
-# References
+## References
 [1] https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1004383.
 
